@@ -11,7 +11,7 @@ namespace WcfServiceLibraryTest
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código y en el archivo de configuración a la vez.
     public class Service1 : IService1
     {
-        private const String ConnectionString= "..\\..\\..\\DataBasesSQLite\\Data Source=chinook.db; Version = 3; New = True; Compress = True; ";
+        private const String ConnectionString= "Data Source=..\\..\\chinook.db; Version = 3; New = True; Compress = True; ";
         private string ErrStr;
 
         public string GetLastErrorStr()
